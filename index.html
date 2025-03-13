@@ -6,9 +6,9 @@
     <title>Fauzi Noorsyabani</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="shortcut icon" href="images/gijax.png" />
+    <link rel="shortcut icon" href="images/logo.png" />
     <script src="mesh-animation.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
     <div class="background-animation">
@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="#"><img src="" alt="Fauzi Noorsyabani" width="150" height="29"></a>
+                <a href="#"><img src="images/logo-fauzins.png" alt="Fauzi Noorsyabani" width="150" height="29"></a>
             </div>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -40,8 +40,9 @@
         <section id="hero" class="hero-section">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h2 class="animate-on-scroll">Hello, I'm</h2>
-                    <h1 class="animate-on-scroll">Fauzi Noorsyabani</h1>
+                    <h1 class="hero-text-hello"></h1>
+                    <h1 class="animate-on
+                    -scroll"><span style="color: rgb(99, 22, 172); letter-spacing: -5;">Hello I'm </span><br><span id="changing-text" style="letter-spacing: -2;"></span></h1>
                     <p class="animate-on-scroll">
                         I'm an enthusiastic, highly motivated, adaptive, eager to learn, and grow 
                         professionally person. I'm also familiar with various aspects of software engineering, 
@@ -56,11 +57,11 @@
                         <h3>Current Status</h3>
                         <div class="status-item">
                             <i class="fas fa-briefcase"></i>
-                            <p>Junior Data Science Intern @VINIX7</p>
+                            <p>Junior Data Science Intern <span><strong>@ VINIX7</strong></span></p>
                         </div>
                         <div class="status-item">
                             <i class="fas fa-graduation-cap"></i>
-                            <p>The last three Information System @Universitas Siliwangi</p>
+                            <p>The last three Information System <span><strong> @ Universitas Siliwangi</strong></span></p>
                         </div>
                     </div>
                     
@@ -74,17 +75,17 @@
                     </div>
                 </div>
                 <div class="hero-image animate-on-scroll">
-                    <img src="images/gijax.png" alt="Fauzi Noorsyabani">
                 </div>
             </div>
         </section>
+        <!-- End Hero Section -->
 
         <!-- About Me Section -->
         <section id="about" class="about-section">
             <h2 class="section-title animate-on-scroll">About Me</h2>
             <div class="about-content animate-on-scroll">
                 <div class="about-image">
-                    <img src="about-image.jpg" alt="About Fauzi">
+                    <img src="images/aboutme-image.png" alt="About Fauzi">
                 </div>
                 <div class="about-text">
                     <p>
@@ -98,12 +99,14 @@
                 </div>
             </div>
         </section>
+        <!-- End About Me Section -->
 
         <!-- Tech Stack Section -->
         <section id="tech-stack" class="tech-stack-section">
             <h2 class="section-title animate-on-scroll">Tech Stacks</h2>
             <div class="tech-grid">
                 <div class="tech-item animate-on-scroll">
+                    <img src="" alt="">
                     <i class="fab fa-html5"></i>
                     <p>HTML5</p>
                 </div>
@@ -135,8 +138,29 @@
                     <i class="fab fa-git-alt"></i>
                     <p>Git</p>
                 </div>
+                <div class="tech-item animate-on-scroll">
+                    <i class="fa-brands fa-php"></i>
+                    <p>PHP</p>
+                </div>
+                <div class="tech-item animate-on-scroll">
+                    <i class="fab fa-laravel"></i>
+                    <p>Laravell</p>
+                </div>
+                <div class="tech-item animate-on-scroll">
+                    <i class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="tech-item animate-on-scroll">
+                    <i class="fab fa-wordpress"></i>
+                    <p>WordPress</p>
+                </div>
+                <div class="tech-item animate-on-scroll">
+                    <i class="fab fa-figma"></i>
+                    <p>Figma</p>
+                </div>
             </div>
         </section>
+        <!-- End Tech Stack Section -->
 
         <!-- Projects Section -->
         <section id="projects" class="projects-section">
@@ -144,7 +168,7 @@
             <div class="project-grid">
                 <div class="project-card animate-on-scroll">
                     <div class="project-image">
-                        <img src="project1.jpg" alt="LadangNusa">
+                        <img src="images/project/ladangNusa.png" alt="LadangNusa">
                     </div>
                     <div class="project-info">
                         <h3>NusaLadang</h3>
@@ -166,7 +190,7 @@
                 </div>
                 <div class="project-card animate-on-scroll">
                     <div class="project-image">
-                        <img src="project2.jpg" alt="CV. Putra AR">
+                        <img src="images/project/cv-putraar.png" alt="CV. Putra AR">
                     </div>
                     <div class="project-info">
                         <h3>CV. Putra AR</h3>
@@ -184,7 +208,7 @@
                 </div>
                 <div class="project-card animate-on-scroll">
                     <div class="project-image">
-                        <img src="project3.jpg" alt="RA AL-Fathunnisa">
+                        <img src="images/project/ra-al-fathunnisa.png" alt="RA AL-Fathunnisa">
                     </div>
                     <div class="project-info">
                         <h3>RA AL-Fathunnisa</h3>
@@ -203,6 +227,7 @@
                 </div>
             </div>
         </section>
+        <!-- End Projects Section -->
 
         <!-- Experience Section -->
         <section id="experience" class="experience-section">
@@ -242,7 +267,7 @@
                     <div class="timeline-content">
                         <h3>Administrative Assistant</h3>
                         <h4>SARDI JAYA AUTO SERVICE STATION</h4>
-                        <p class="date">July 2021w1 - May 2023</p>
+                        <p class="date">July 2021 - May 2023</p>
                         <ul>
                             <li>Processed daily sales transactions in cash, debit, and credit, ensuring accuracy to support business
                                 operations.</li>
@@ -255,9 +280,9 @@
                 </div>
             </div>
         </section>
+        <!-- End Experience Section -->
 
-
-        <!-- Awards Section -->
+        <!--  Start Awards Section -->
         <section id="awards" class="awards-section">
             <h2 class="section-title animate-on-scroll">Awards</h2>
             <div class="awards-grid">
@@ -266,9 +291,11 @@
                         <i class="fas fa-trophy"></i>
                     </div>
                     <div class="award-info">
-                        <h3>First Place - National Hackathon</h3>
+                        <h3>Finalist, National SMEFU PART XIV</h3>
                         <p class="date">2023</p>
-                        <p>Won first place at a national hackathon for developing an innovative solution to address urban mobility challenges.</p>
+                        <p>Recognized as a national finalist in a
+                            competition organized by the Informatics Student Association, Faculty of Engineering,
+                            Universitas Siliwangi</p>
                     </div>
                 </div>
                 <div class="award-item animate-on-scroll">
@@ -276,23 +303,92 @@
                         <i class="fas fa-medal"></i>
                     </div>
                     <div class="award-info">
-                        <h3>Best Project - University Showcase</h3>
-                        <p class="date">2022</p>
-                        <p>Received the Best Project award at the university's annual technology showcase for an AI-powered education platform.</p>
+                        <h3>Funding Recipient - Social Business League Siliwangi (LIBSOS)</h3>
+                        <p class="date">2023</p>
+                        <p>Successfully secured
+                            funding for a social business initiative under the Social Business League program at Universitas
+                            Siliwangi</p>
                     </div>
                 </div>
                 <div class="award-item animate-on-scroll">
                     <div class="award-icon">
-                        <i class="fas fa-certificate"></i>
+                        <i class="fas fa-medal"></i>
                     </div>
                     <div class="award-info">
-                        <h3>Scholarship Recipient</h3>
-                        <p class="date">2021</p>
-                        <p>Awarded a full scholarship based on academic excellence and technical achievements in the field of information technology.</p>
+                        <h3>Gold Medalist in Accounting - Kompetisi Sains Indonesia (ISSC)</h3>
+                        <p class="date">2024</p>
+                        <p> National Science Olympiad organized by PRESMANESIA</p>
+                    </div>
+                </div>
+                <div class="award-item animate-on-scroll">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-info">
+                        <h3>Gold Medalist in Mathematics -  Olimpiade Sains Nusantara (OLIMNUS)</h3>
+                        <p class="date">2024</p>
+                        <p> Achieved first place at the university level in a national competition organized by Generasi Maju Indonesia (GEMANESIA)</p>
                     </div>
                 </div>
             </div>
         </section>
+        <!--  End Awards Section -->
+
+        <!-- Certifisan Section -->
+         <section id="projects" class="projects-section">
+                    <h2 class="section-title animate-on-scroll">Certifications</h2>
+                    <div class="project-grid">
+                        <div class="project-card animate-on-scroll">
+                            <div class="project-image">
+                                <img src="images/certifications/bg-ict-pm.png" alt="ICT Project">
+                            </div>
+                            <div class="project-info">
+                                <h3>ICT Project Manager</h3>
+                                <p>Certified in ICT project management with proven competencies in integration management, scope,
+                                    time, cost, quality, human resources, risk, procurement, and stakeholder management. This
+                                    certification verifies the capability to lead and manage complex ICT projects efficiently and effectively.</p>
+                                <div class="project-tech">
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://drive.google.com/file/d/1wPvK8RTEeUgLvxCJh5z5t-iRPUeTYHoj/view?usp=sharing" class="btn btn-outline"> View Certifications</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card animate-on-scroll">
+                            <div class="project-image">
+                                <img src="images/certifications/aws.png" alt="AWS">
+                            </div>
+                            <div class="project-info">
+                                <h3>Cloud Practitioner Essentials</h3>
+                                <p> Acquired foundational knowledge of Amazon Web Services, cloud computing principles, global infrastructure, network reliability, database storage, and security</p>
+                                <div class="project-tech">
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://drive.google.com/file/d/1BO80EwVxybSRcadCAmI8DNuXpKMfoiHr/view?usp=sharing" class="btn btn-outline"> View Certifications</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card animate-on-scroll">
+                            <div class="project-image">
+                                <img src="images/certifications/ms-office.png" alt="Microsoft Office Specialist">
+                            </div>
+                            <div class="project-info">
+                                <h3>Microsoft Office Specialist: Excel Associate (Microsoft 365 Apps)</h3>
+                                <p>Demonstrated proficiency in Microsoft Excel, including the ability to create, edit, and manage
+                                    workbooks with multiple sheets. Skilled in data visualization through charts and graphs, applying
+                                    formulas, formatting cells, and working with tables and worksheets to support professional data
+                                    management tasks.</p>
+                                <div class="project-tech">
+                             
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://drive.google.com/file/d/1874Qpz_xskHrm2PbufKtffRHhUbD47cc/view?usp=sharing" class="btn btn-outline"> View Certifications</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+         </section>
+         <!-- End Projects Section -->
 
         <!-- Contact Section -->
         <section id="contact" class="contact-section">
@@ -300,11 +396,13 @@
                 <h2>Any questions or inquiries?</h2>
                 <p>I'm open to collaborations within my expertise and new opportunities for career development. Feel free to reach out!</p>
                 <div class="contact-info">
-                    <p><i class="fas fa-envelope"></i> fauzi.noorsyabani@gmail.com</p>
+                    <p><i class="fas fa-envelope"></i> career.fauzinoorsyabani@gmail.com</p>
                     <a href="tel:+6281310641534"><p><i class="fas fa-phone"> +62 895 609 250 509</i></p> </a>
                 </div>
             </div>
         </section>
+         <!-- End Contact Section -->
+
     </main>
 
     <footer>

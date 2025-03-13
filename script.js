@@ -292,14 +292,26 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.classList.add('mesh-canvas');
     
     new MeshAnimation({
-        color: 'rgba(255, 51, 51, 0.8)', 
-        pointsNumber: 50,     // Ditingkatkan dari 15 menjadi 50
-        maxDistance: 200,     // Ditingkatkan dari 150 menjadi 200
-        maxConnections: 8,    // Ditingkatkan dari 5 menjadi 8
-        speed: 0.5,           // Bisa disesuaikan jika perlu
+        color: 'rgb(99, 22, 172)',  // Warna ungu
+        pointsNumber: 60,     // Ditingkatkan dari 15 menjadi 50
+        maxDistance: 250,     // Ditingkatkan dari 150 menjadi 200
+        maxConnections: 15,    // Ditingkatkan dari 5 menjadi 8
+        speed: 0.6,           // Bisa disesuaikan jika perlu
         canvas: canvas,
         onlyOnClick: false,
         alwaysAnimate: true
     });
+
+       // Inisialisasi Typed.js
+       var typed = new Typed('#changing-text', {
+        strings: ['Fauzi Noorsyabani', 'Software Engineer', 'Frontend Engineer', 'PUBG Player'],
+        typeSpeed: 40,
+        backSpeed: 40,
+        backDelay: 2000,
+        startDelay: 500,
+        loop: true
+      });
 });
+
+
 
